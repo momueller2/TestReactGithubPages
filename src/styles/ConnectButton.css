@@ -1,0 +1,92 @@
+.connect-button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.connect-button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button text size */
+    width: 40%; /* Full width to adapt to the container */
+    max-width: 400px; /* Set a max width to prevent excessive stretching */
+    box-sizing: border-box;
+}
+
+.connect-button:disabled {
+    background-color: #cccccc; /* Background color when disabled */
+    cursor: not-allowed; /* Not allowed cursor when disabled */
+}
+
+.connect-button:hover:not(:disabled) {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.input-field {
+    padding: 10px;
+    margin-bottom: 10px; /* Space between input and button */
+    width: 60%; /* Width of the input field */
+    max-width: 400px; /* Set a max width for input field */
+    font-size: 16px; /* Input text size */
+    box-sizing: border-box; /* Include padding and borders in element's total width */
+}
+
+.connected-container {
+    display: flex;
+    align-items: center;
+}
+
+.details-button {
+    margin-left: 10px;
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button text size */
+    width: 40%; /* Full width to adapt to the container */
+    max-width: 400px; /* Set a max width to prevent excessive stretching */
+    box-sizing: border-box;
+}
+
+.close-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px; /* Adjust as needed */
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Bring modal on top */
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative; /* For positioning close button */
+    width: 300px; /* Adjust as needed */
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px; /* Adjust size */
+}
