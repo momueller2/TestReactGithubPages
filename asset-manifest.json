@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/TestReactGithubPages/static/css/main.f855e6bc.css",
-    "main.js": "/TestReactGithubPages/static/js/main.60cabcd2.js",
-    "static/js/453.455ce993.chunk.js": "/TestReactGithubPages/static/js/453.455ce993.chunk.js",
-    "static/media/logo.svg": "/TestReactGithubPages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/TestReactGithubPages/static/css/main.2a124856.css",
+    "main.js": "/TestReactGithubPages/static/js/main.1200dd84.js",
+    "static/js/453.8f53921c.chunk.js": "/TestReactGithubPages/static/js/453.8f53921c.chunk.js",
     "index.html": "/TestReactGithubPages/index.html",
-    "main.f855e6bc.css.map": "/TestReactGithubPages/static/css/main.f855e6bc.css.map",
-    "main.60cabcd2.js.map": "/TestReactGithubPages/static/js/main.60cabcd2.js.map",
-    "453.455ce993.chunk.js.map": "/TestReactGithubPages/static/js/453.455ce993.chunk.js.map"
+    "main.2a124856.css.map": "/TestReactGithubPages/static/css/main.2a124856.css.map",
+    "main.1200dd84.js.map": "/TestReactGithubPages/static/js/main.1200dd84.js.map",
+    "453.8f53921c.chunk.js.map": "/TestReactGithubPages/static/js/453.8f53921c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.60cabcd2.js"
+    "static/css/main.2a124856.css",
+    "static/js/main.1200dd84.js"
   ]
 }
